@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiane Antunes - Consultora Mary Kay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            max-width: 450px;
+            width: 100%;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #d81b60 0%, #880e4f 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .profile-section {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(to bottom, #f8bbd0 0%, white 40%);
+        }
+
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 26px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #d81b60;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+            padding: 0 20px;
+            margin-bottom: 25px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #d81b60 0%, #880e4f 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(216, 27, 96, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(216, 27, 96, 0.4);
+            background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
+        }
+
+        .footer {
+            background: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .store-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #d81b60;
+            margin-bottom: 8px;
+        }
+
+        .brand {
+            font-size: 13px;
+            color: #999;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #d81b60, transparent);
+            margin: 20px 0;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                margin: 10px;
+            }
+
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+
+            .name {
+                font-size: 22px;
+            }
+
+            .description {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="logo">CRYSLYNE</div>
+            <div class="subtitle">Sua Consultora de Beleza</div>
+        </div>
+
+        <div class="profile-section">
+            <img src="professional_mary_kay_photo_v2.png" alt="Cristiane Antunes" class="profile-image">
+            
+            <div class="name">Cristiane Antunes</div>
+            <div class="title">Revendedora Mary Kay</div>
+
+            <div class="divider"></div>
+
+            <div class="description">
+                Descubra o universo de beleza e cuidados com a pele Mary Kay. Produtos de alta qualidade para realçar sua beleza natural. Visite minha vitrine online e encontre seus favoritos!
+            </div>
+
+            <a href="https://loja.marykay.com.br/minha-vitrine?slug=crysantunes" target="_blank" class="cta-button">
+                Visite Minha Loja
+            </a>
+        </div>
+
+        <div class="footer">
+            <div class="store-name">Cryslyne Mary Kay</div>
+            <div class="brand">Beleza e Confiança ao Seu Alcance</div>
+        </div>
+    </div>
+</body>
+</html>
+
